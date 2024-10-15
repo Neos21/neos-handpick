@@ -1,0 +1,24 @@
+{
+  "name": "@neos21/handpick",
+  "version": "0.0.0",
+  "description": "Neo's Handpick",
+  "type": "module",
+  "main": "index.js",
+  "bin": {
+    "nhp": "index.js"
+  },
+  "author": "Neo <neos21@gmail.com> (https://neos21.net/)",
+  "license": "MIT",
+  "homepage": "https://github.com/Neos21/neos-handpick#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neos21/neos-handpick.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Neos21/neos-handpick/issues"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/Neos21"
+  }
+}
