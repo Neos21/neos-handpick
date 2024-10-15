@@ -1,6 +1,6 @@
 # @neos21/handpick : Neo's Handpick
 
-[![NPM Version](https://img.shields.io/npm/v/@neos21/handpick.svg)](https://www.npmjs.com/package/@neos21/handpick)
+[![NPM Version](https://img.shields.io/npm/v/@neos21/handpick.svg)](https://www.npmjs.com/package/@neos21/handpick) [![GPR Version](https://img.shields.io/github/package-json/v/neos21/neos-handpick?label=github)](https://github.com/Neos21/neos-handpick/pkgs/npm/handpick)
 
 ```bash
 $ npm install --global @neos21/handpick
