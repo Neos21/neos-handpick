@@ -23,7 +23,8 @@ const createTempPackageJson = async () => {
 const readPackageJson = async () => {
   const packageJsonFile = await fs.readFile(packageJsonFilePath, 'utf-8');
   const packageJson = JSON.parse(packageJsonFile);
-  if(packageJson.devDependencies == null) packageJson.devDependencies = {};
+  if(packageJson.devDependencies != null) packageJson['__devDependencies'] = Object.assign({}, packageJson.devDependencies);  // `devDependencies` を書き換えるため一時ファイルには元の状態を退避しておく
+  if(packageJson.devDependencies == null) packageJson.devDependencies = {};  // `devDependencies` そのものがない場合は空の連想配列を作っておく
   return packageJson;
 };
 

@@ -1,6 +1,6 @@
 {
   "name": "@neos21/handpick",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Neo's Handpick",
   "type": "module",
   "main": "index.js",
